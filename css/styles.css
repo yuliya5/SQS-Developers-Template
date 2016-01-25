@@ -168,4 +168,34 @@ footer {
   padding: 100px 0;
 }
 
+/* Logo, Site Name, Site Slogan
+---------------------------------- */
+#logo{
+  margin-top: 10px;
+}
+.logo,
+.logo-section {
+  float: left;
+}
+.brand {
+  font-size: 38px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding: 10px 0;
+}
+.brand a {
+  color: white;
+  font-weight: bold;
+}
+.brand a:hover {
+  text-decoration: none;
+}
+.site-slogan {
+  font-size: 12px;
+}
+
+
 /* -- end custom css for Bootstrap 3.x --*/
