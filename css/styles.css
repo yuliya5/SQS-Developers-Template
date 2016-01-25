@@ -78,6 +78,10 @@ img.grayscale {
   padding-top:4%;
 }
 
+.tint{
+  background-color: rgba(0,0,0,0.18);
+  padding: 0px 0px 25px 25px;
+}
 .header h1 {
   font-size:110px;
   -webkit-text-stroke: 1px rgba(0,0,0,0.1);
@@ -87,7 +91,6 @@ img.grayscale {
   margin-bottom:15px;
   margin-top: 100px;
   font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
-  background-color: rgba(0,0,0,0.35)
 }
 
 .header .lead {
