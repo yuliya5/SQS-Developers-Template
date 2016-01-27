@@ -55,6 +55,10 @@ img.grayscale {
    color:#777777;
 }
 
+.navbar-brand{
+  font-size: 35px;
+}
+
 .navbar a {
   color:#fff;
 }
@@ -208,6 +212,8 @@ footer {
   font-size: 18px;
   font-weight: 500;
 }
+
+
 
 
 /* -- end custom css for Bootstrap 3.x --*/
