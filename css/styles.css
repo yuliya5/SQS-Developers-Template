@@ -155,7 +155,7 @@ img.grayscale {
   color:#fff;
 }
 
-img {
+.intro_pic {
   display: block;
   max-width: 100%;
   height: auto;
@@ -187,7 +187,7 @@ img {
   font-size: 15px;
 }
 
-.featurette-item > i {
+.featurette-item > img {
   border: 4px solid #ffffff;
   border-radius: 50%;
   display: inline-block;
