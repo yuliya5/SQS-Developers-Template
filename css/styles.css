@@ -27,25 +27,45 @@ img.grayscale {
     -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
 }
 
-/*.icon-bar {
+/*Menu-expandable-icon*/
+.icon-bar {
    background-color:#fff;
-}*/
-
-.scroll-down a, .scroll-top a {
-   color:#ffffff;
 }
 
-.scroll-down {
+/*.scroll-down a, .scroll-top a {
+   color:#ffffff;
+}*/
+
+/*.scroll-down {
    position:fixed;
    bottom:20%;
    right:0%;
    color:#f9f9f9;
-}
+}*/
 
-.scroll-top {
+/*.scroll-top {
   background-color:#33ee67;
+}*/
+
+/*Navbar*/
+.navbar-brand{
+  font-size: 45px;
 }
 
+.navbar a {
+  color:#fff;
+}
+
+.navbar-bold {
+  background-color: orange;
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.navbar-bold li a:hover, .navbar-bold li.active {
+  background-color:rgb(36, 100, 137);
+}
+
+/*Header*/
 .header .btn-lg {
    font-size:28px;
    border-color:#eeeeee;
@@ -57,27 +77,6 @@ img.grayscale {
 .header .btn-lg:hover {
    background-color:#eeeeee;
    color:#777777;
-}
-
-.navbar-brand{
-  font-size: 35px;
-}
-
-.navbar a {
-  color:#fff;
-}
-
-.navbar-bold.affix {
-  background-color:orange;
-}
-
-.navbar-bold {
-  background-color:orange;
-  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
-}
-
-.navbar-bold li a:hover, .navbar-bold li.active {
-  background-color:rgb(36, 100, 137);
 }
 
 .vert {
