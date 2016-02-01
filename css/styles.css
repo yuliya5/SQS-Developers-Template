@@ -11,7 +11,7 @@ body {
 }
 
 /* fix bs3 horizontal scrollbar bug */
-.row { margin: 0; padding: 0 }
+/*.row { margin: 0; padding: 0 }*/
 
 h1 {
   font-size:45px; 
@@ -146,7 +146,7 @@ img.grayscale {
 }
 
 .featurette-item > i {
-  border: 3px solid #ffffff;
+  border: 4px solid #ffffff;
   border-radius: 50%;
   display: inline-block;
   font-size: 56px;
