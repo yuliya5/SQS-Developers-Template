@@ -67,6 +67,13 @@ img.grayscale {
   background-color:rgb(36, 100, 137);
 }
 
+.navbar-nav{
+  float: right;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
 /*Header*/
 .header .btn-lg {
    font-size:28px;
@@ -197,17 +204,13 @@ footer {
 #logo{
   margin-top: 10px;
 }
+
 .logo,
 .logo-section {
   float: left;
 }
 .brand {
   font-size: 38px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
   padding: 10px 0;
 }
 .brand a {
@@ -222,14 +225,8 @@ footer {
   font-size: 12px;
 }
 
-.navbar-nav{
-  float: right;
-  padding: 10px 20px;
-  font-size: 18px;
-  font-weight: 500;
-}
 
-/*Transparent Blue*/
+/*Transparent Blue Background*/
 .translucent-bg {
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
@@ -239,6 +236,7 @@ footer {
   background-repeat: no-repeat;
   z-index: 1;
   position: relative;
+  padding: 80px 0;
 }
 .translucent-bg .translucent-bg {
   margin-top: 80px;
