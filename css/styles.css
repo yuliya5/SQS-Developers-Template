@@ -15,7 +15,8 @@ body {
 
 h1 {
   font-size: 45px;
-  letter-spacing: 10px;
+  letter-spacing: 8px;
+  font-weight: 700;
 }
 
 h1 span{
@@ -49,7 +50,8 @@ img.grayscale {
   background-color:#33ee67;
 }*/
 
-/*Navbar*/
+/*Navbar
+----------------------------------*/
 .navbar-brand{
   font-size: 45px;
 }
@@ -74,13 +76,39 @@ img.grayscale {
   font-weight: 500;
 }
 
-/*Header*/
+/* Logo, Site Name, Site Slogan
+---------------------------------- */
+#logo{
+  margin-top: 10px;
+}
+
+.logo,
+.logo-section {
+  float: left;
+}
+.brand {
+  padding: 10px 0;
+}
+.brand a {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+/*Header
+---------------------------------- */
+.header {
+  height: 80%;
+  background: url(../images/Baltimore.jpg) no-repeat center center fixed;
+}
+
 .header .btn-lg {
    font-size:28px;
    border-color:#eeeeee;
    padding:15px;
    background-color:transparent;
-   color:#ffffff;
+   color:orange;
+   font-weight: bold;
 }
 
 .header .btn-lg:hover {
@@ -89,9 +117,7 @@ img.grayscale {
 }
 
 .vert {
-  vertical-align: middle;
-  width:100%;
-  padding-top:4%;
+  padding-top: 4%;
 }
 
 .tint{
@@ -100,10 +126,7 @@ img.grayscale {
 }
 .header h1 {
   font-size:110px;
-  -webkit-text-stroke: 1px rgba(0,0,0,0.1);
-  color:#431a6d;
   color:#fff;
-  margin-left:-5px;
   margin-bottom:15px;
   margin-top: 100px;
   font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
@@ -112,15 +135,14 @@ img.grayscale {
 .header .lead {
   color:#eeeeee;
   font-size:25px;
+  font-weight: bold;
+  letter-spacing: 3px;
 }
 
-.header {
-  height: 80%;
-  background: url(../images/Baltimore.jpg) no-repeat center center fixed;
-}
-
+/*Section 1
+---------------------------------- */
 .blurb {
-  padding: 120px 0;
+  padding: 100px 0;
   background-color:#fefefe;
 }
 
@@ -133,12 +155,23 @@ img.grayscale {
   color:#fff;
 }
 
-/*Simple blue background*/
-/*.featurette {
-  background: rgb(36, 100, 137);
-  padding: 50px 0;
-  color: #ffffff;
-}*/
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.lead {
+  font-size: 23px;
+  color: #339BEB;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+
+.text-colored {
+    color: #55acee;
+}
 
 .amazing {
   font-size: 45px;
@@ -162,7 +195,7 @@ img.grayscale {
   width: 140px;
   height: 140px;
   line-height: 136px;
-  vertical-align: middle; 
+  vertical-align: middle;
   text-align: center;
 }
 
@@ -199,31 +232,6 @@ footer {
   padding: 100px 0;
 }
 
-/* Logo, Site Name, Site Slogan
----------------------------------- */
-#logo{
-  margin-top: 10px;
-}
-
-.logo,
-.logo-section {
-  float: left;
-}
-.brand {
-  font-size: 38px;
-  padding: 10px 0;
-}
-.brand a {
-  color: white;
-  font-weight: bold;
-  letter-spacing: 3px;
-}
-.brand a:hover {
-  text-decoration: none;
-}
-.site-slogan {
-  font-size: 12px;
-}
 
 
 /*Transparent Blue Background*/
