@@ -7,7 +7,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  /*font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;*/
 }
 
 /* fix bs3 horizontal scrollbar bug */
@@ -17,6 +17,7 @@ h1 {
   font-size: 45px;
   letter-spacing: 8px;
   font-weight: 700;
+  font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
 h1 span{
@@ -35,20 +36,6 @@ img.grayscale {
    background-color:#fff;
 }
 
-/*.scroll-down a, .scroll-top a {
-   color:#ffffff;
-}*/
-
-/*.scroll-down {
-   position:fixed;
-   bottom:20%;
-   right:0%;
-   color:#f9f9f9;
-}*/
-
-/*.scroll-top {
-  background-color:#33ee67;
-}*/
 
 /*Navbar
 ----------------------------------*/
@@ -202,6 +189,14 @@ img.grayscale {
 .featurette-item > i:hover {
   font-size: 68px;
 }
+
+/*Let's work together*/
+.default-bg.blue {
+    background-color: #55acee;
+    color: #ffffff;
+    padding: 30px;
+}
+
 
 .callout {
   color: #ffffff;
