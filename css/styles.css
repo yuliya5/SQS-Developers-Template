@@ -11,7 +11,7 @@ body {
 }
 
 /* fix bs3 horizontal scrollbar bug */
-/*.row { margin: 0; padding: 0 }*/
+.row { margin: 0; padding: 0 }
 
 h1 {
   font-size:45px; 
@@ -27,9 +27,9 @@ img.grayscale {
     -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
 }
 
-.icon-bar {
+/*.icon-bar {
    background-color:#fff;
-}
+}*/
 
 .scroll-down a, .scroll-top a {
    color:#ffffff;
@@ -108,8 +108,8 @@ img.grayscale {
 
 .header {
   height: 80%;
-  background: url(../images/Baltimore.jpg) repeat center center fixed;
-  }
+  background: url(../images/Baltimore.jpg) no-repeat center center fixed;
+}
 
 .blurb {
   padding: 120px 0;
